@@ -152,7 +152,7 @@ html{
 ================================================== */
 .mv{
     padding-top: 200px;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
 }
 .mv-ttl{
@@ -169,7 +169,7 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     object-fit: cover; 
     z-index: -1;
 }
@@ -180,7 +180,7 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     object-fit: cover; 
     z-index: -1;
     display: none;
@@ -192,15 +192,16 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     object-fit: cover; 
     z-index: -1;
     display: none;
 }
+
 /* メインビジュアル（スマホ） */
 @media (max-width:767px) {
     .mv{
-        padding-top: 140px; 
+        padding-top: 140px;
     }
     .mv-ttl{
         padding-left: 0;
@@ -215,8 +216,8 @@ html{
         display: block;
     }
 }
-/* 
-@media (min-width: 767px) and (max-width: 960px){
+/* メインビジュアル（タブレット） */
+@media (min-width: 768px) and (max-width: 960px){
     .mv-ttl{
         padding-left: 80px;
     }
@@ -229,7 +230,7 @@ html{
     .mainvisual-sp{
         display: none;
     }
-} */
+}
 
 
 
@@ -317,6 +318,18 @@ html{
         gap: 60px 0;
     }
 
+    .works-list-item{
+    margin: 0 auto;
+    }
+
+    .works-list-item-img{
+        width: 100%;
+        max-width: 520px;
+        height: auto;
+        display: block;
+    }
+      
+    
     .works-list-item-number{
         font-size: 20px;
         margin-top: 10px;
@@ -327,7 +340,10 @@ html{
         font-size: 20px;
     }
 }
-
+/* 作品一覧（タブレット） */
+@media (min-width: 768px) and (max-width: 960px){
+    
+}
 
 
 
