@@ -167,7 +167,7 @@ html,body{
     margin: 0 auto;
     color: #fff;
 }
-.mainvisual-pc{
+.mv-pc{
     position: fixed;
     top: 0;
     left: 0;
@@ -178,7 +178,7 @@ html,body{
     object-fit: cover; 
     z-index: -1;
 }
-.mainvisual-ipad{
+.mv-ipad{
     position: fixed;
     top: 0;
     left: 0;
@@ -190,7 +190,7 @@ html,body{
     z-index: -1;
     display: none;
 }
-.mainvisual-sp{
+.mv-sp{
     position: fixed;
     top: 0;
     left: 0;
@@ -212,13 +212,13 @@ html,body{
     .mv-ttl{
         padding-left: 0;
     }
-    .mainvisual-pc{
+    .mv-pc{
         display: none;
     }
-    .mainvisual-ipad{
+    .mv-ipad{
         display: none;
     }
-    .mainvisual-sp{
+    .mv-sp{
         display: block;
     }
 }
@@ -228,13 +228,13 @@ html,body{
         font-size: 24px;
         padding-left: 80px;
     }
-    .mainvisual-pc{
+    .mv-pc{
         display: none;
     }
-    .mainvisual-ipad{
+    .mv-ipad{
         display: block;
     }
-    .mainvisual-sp{
+    .mv-sp{
         display: none;
     }
 }
