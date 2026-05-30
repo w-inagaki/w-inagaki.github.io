@@ -1,3 +1,21 @@
+// ハンバーガーメニュー
+// ==================================================
+const btnGNav = document.querySelector(".btn-gNav");
+const gNav = document.querySelector(".gNav");
+
+btnGNav.addEventListener("click", () => {
+  btnGNav.classList.toggle("open");
+  gNav.classList.toggle("open");
+});
+
+
+
+
+
+
+
+
+
 // スクロールバー
 // ==================================================
 const scrollEl = document.querySelector('.scrollbar-pc');

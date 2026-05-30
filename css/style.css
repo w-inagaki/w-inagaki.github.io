@@ -12,6 +12,7 @@ html,body{
     position: relative;
     color: var(--white);
     font-size: 1rem;
+    line-height: 1.6;
     font-family: sans-serif;
 }
 
@@ -55,10 +56,10 @@ html,body{
 
 .hamburger .btn-gNav {
     position: fixed;
-    top: 20px;
-    right: 20px;
-    width: 30px;
-    height: 24px;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    height: 26px;
     z-index: 12;
     box-sizing: border-box;
     cursor: pointer;
@@ -78,10 +79,10 @@ html,body{
     top: 0;
 }
 .hamburger .btn-gNav span:nth-child(2) {
-    top: 10px;
+    top: 12px;
 }
 .hamburger .btn-gNav span:nth-child(3) {
-    top: 20px;
+    top: 24px;
 }
 .hamburger .btn-gNav.open span:nth-child(1) {
     background: var(--white);
@@ -109,6 +110,10 @@ html,body{
     .header{
         padding-left:  30px;
         padding-right: 30px;
+        background-color: transparent;
+    }
+    .header-logo{
+        display: none;
     }
     .header-nav{
         display: none;
@@ -255,22 +260,15 @@ html,body{
 }
 
 .scrollbar-pc-txt {
-  color: #fff;
-  text-shadow:
-    0 0 6px rgba(255,255,255,0.9),
-    0 0 14px rgba(255,255,255,0.7),
-    0 0 24px rgba(255,255,255,0.5);
-}
-
-  
-  
-  
-.scrollbar-pc-txt{
+    color: #fff;
+    text-shadow:
+        0 0 6px rgba(255,255,255,0.9),
+        0 0 14px rgba(255,255,255,0.7),
+        0 0 24px rgba(255,255,255,0.5);
     display: inline-block;
     position: absolute;
     bottom: 0;
     padding: 10px 10px 110px;
-    color: #fff;
     font-size: 14px;
     line-height: 1;
     letter-spacing: 0.2em;
@@ -447,7 +445,7 @@ html,body{
     background-color: rgba(20, 5, 9, 0.65);
     padding-top: 80px;
     padding-bottom: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .about-inner{
@@ -458,7 +456,7 @@ html,body{
 
 .about-name{
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .about-name-wa{
@@ -473,7 +471,7 @@ html,body{
 }
 
 .about-txt{
-    margin-bottom: 24px;
+    margin-bottom: 50px;
 }
 
 .about-more{
@@ -503,7 +501,7 @@ html,body{
     .about{
         padding-top: 40px;
         padding-bottom: 60px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     
     .about-inner{
@@ -521,11 +519,18 @@ html,body{
     .about{
         padding-top: 60px;
         padding-bottom: 80px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     
     .about-inner{
         padding: 0 30px;
         max-width: 660px;
     }
+}
+
+
+.footer{
+    text-align: center;
+    background-color: var(--black);
+    padding: 20px;
 }
