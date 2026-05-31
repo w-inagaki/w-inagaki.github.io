@@ -9,7 +9,7 @@ html,body{
     min-height: 100svh;
 }
 html{
-    background-color: #19140D;
+    background-color: var(--black);
 }
 .wrap{
     position: relative;
@@ -26,7 +26,6 @@ html{
 ==================================================*/
 :root{
     --white:#EDE6E8;
-    --background:rgba(20, 5, 9, 0.65);
     --black:#140509;
 }
 
