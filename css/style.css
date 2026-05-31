@@ -174,8 +174,7 @@ html,body{
     position: fixed;
     top: 0;
     left: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
+
     width: 100vw;
     min-height: 100vh;
     object-fit: cover; 
@@ -212,6 +211,7 @@ html,body{
 @media (max-width:767px) {
     .mv{
         padding-top: 140px;
+        min-height: 100svh;
     }
     .mv-ttl{
         padding-left: 0;
@@ -224,6 +224,10 @@ html,body{
     }
     .mv-sp{
         display: block;
+        width: 100vw;
+        height: 100svh;
+        min-height: 100svh;
+        object-fit: cover;
     }
 }
 /* メインビジュアル（タブレット） */
