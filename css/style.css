@@ -187,7 +187,7 @@ html,body{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    min-height: 100vh;
+    min-height: 100svh;
     object-fit: cover; 
     z-index: -1;
     display: none;
@@ -196,11 +196,9 @@ html,body{
     position: fixed;
     top: 0;
     left: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
-    height: 100dvh;
+    height: 100svh;
+    min-height: 100svh;
     object-fit: cover; 
     z-index: -1;
     display: none;
@@ -232,6 +230,9 @@ html,body{
 }
 /* メインビジュアル（タブレット） */
 @media (min-width: 768px) and (max-width: 960px){
+    .mv{
+        min-height: 100svh;
+    }
     .mv-ttl{
         font-size: 24px;
         padding-left: 80px;
