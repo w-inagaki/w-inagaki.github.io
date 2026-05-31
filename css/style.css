@@ -217,7 +217,8 @@ html{
     body{
         position: relative;
     }
-    .bg-sp{
+    body::before{
+        content: ''; 
         position: fixed;
         top: 0;
         left: 0;
