@@ -8,7 +8,9 @@ html,body{
     overflow-x: hidden;
     min-height: 100svh;
 }
-
+html{
+    background-color: #19140D;
+}
 .wrap{
     position: relative;
     color: var(--white);
@@ -215,7 +217,6 @@ html,body{
     
     body{
         position: relative;
-        background-color: #19140D;
     }
     .bg-sp{
         position: fixed;
