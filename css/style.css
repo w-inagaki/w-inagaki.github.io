@@ -194,17 +194,7 @@ html,body{
     z-index: -1;
     display: none;
 }
-.mv-sp{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100svh;
-    min-height: 100svh;
-    object-fit: cover; 
-    z-index: -1;
-    display: none;
-}
+
 
 
 /* メインビジュアル（スマホ） */
@@ -222,12 +212,13 @@ html,body{
     .mv-ipad{
         display: none;
     }
-    .mv-sp{
-        display: block;
-        width: 100vw;
-        height: 100svh;
-        min-height: 100svh;
-        object-fit: cover;
+    
+    body{
+        background-image: url('../images/mv_iphone.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 }
 /* メインビジュアル（タブレット） */
@@ -245,9 +236,7 @@ html,body{
     .mv-ipad{
         display: block;
     }
-    .mv-sp{
-        display: none;
-    }
+    
 }
 
 /* スクロールバー
