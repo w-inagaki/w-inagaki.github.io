@@ -2,14 +2,12 @@
 ================================================== */
 html{
     scroll-behavior: smooth;
+    background-color: var(--black);
 }
 
 html,body{
     overflow-x: hidden;
     min-height: 100svh;
-}
-html{
-    background-color: var(--black);
 }
 .wrap{
     position: relative;
