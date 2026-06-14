@@ -146,7 +146,6 @@ html,body{
         display: block;
         flex-direction: column;
         text-align: center;
-        /*justify-content: center;*/
     }
 
     .gNav .header-nav-list{
@@ -332,13 +331,14 @@ html,body{
     margin-bottom: 80px;
 }
 .works-list{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 80px 8%;
-    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
-.works-list-item {
-    max-width: 40%;
+.works-list-item{
+    width: 100%;
 }
 .works-list-item-img{
     width: 100%;
@@ -389,7 +389,7 @@ html,body{
     }
     
     .works-list{
-        flex-direction: column;
+        grid-template-columns: 1fr;
         gap: 60px 0;
     }
 
